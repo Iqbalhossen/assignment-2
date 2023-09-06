@@ -1,0 +1,247 @@
+@media only screen and (max-width: 576px) {
+    .container {
+        padding: 0px 30px;
+    }
+
+    .btn-primary {
+        font-size: 13px;
+    }
+
+    .btn-secondary {
+        font-size: 13px;
+    }
+
+
+    .main-nav {
+        display: block;
+        text-align: center;
+    }
+
+    .main-nav>li>a {
+        margin: 2px;
+    }
+
+    .goat-section {
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .goat-content h3 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .goat-content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .goat-content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .gamer-section {
+        display: block;
+        text-align: center;
+    }
+
+    .gamer-section>.goat-content {
+        width: 100%;
+    }
+
+    .games-videos-section-title h1 {
+        font-size: 28px;
+    }
+
+    .games-videos {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        column-gap: 0px;
+        row-gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    .games-videos-item img {
+        width: 100%;
+
+    }
+
+    .careers-area {
+        display: block;
+        ;
+
+    }
+
+    .careers-content {
+        text-align: center;
+    }
+
+    .careers-content h1 {
+        font-size: 40px;
+
+    }
+
+    .careers-type p {
+        font-size: 14px;
+
+    }
+
+    .careers-bannar img {
+        width: 100%;
+    }
+
+    .game-section {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 5px;
+        row-gap: 10px;
+        padding: 30px 0px;
+    }
+
+    .game-item {
+        font-size: 10px;
+
+    }
+
+    .game-item img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .footer-area img {
+        width: 200px;
+        height: auto;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        row-gap: 20px;
+    }
+
+    .social-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 70px);
+        row-gap: 20px;
+    }
+
+    .condition {
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+        row-gap: 20px;
+    }
+
+    .copyright {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        row-gap: 20px;
+    }
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 913px) {
+    .container {
+        padding: 0px 40px;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+    }
+
+    .btn-secondary {
+        font-size: 16px;
+    }
+
+    .goat-content h3 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .goat-content h1 {
+        font-size: 46px;
+        line-height: 55px;
+    }
+
+    .goat-bannar img {
+        height: 400px;
+    }
+
+    .goat-content p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .gamer-section>.goat-content {
+        width: 100%;
+    }
+
+    .games-videos-section-title h1 {
+        font-size: 28px;
+    }
+
+    .games-videos {
+        grid-template-columns: repeat(2, auto);
+        column-gap: 20px;
+    }
+
+    .games-videos-item img {
+        width: 100%;
+
+    }
+
+    .careers-area {
+        display: block;
+
+    }
+
+    .careers-content {
+        text-align: left;
+    }
+
+    .careers-content h1 {
+        font-size: 40px;
+
+    }
+
+    .careers-type p {
+        font-size: 14px;
+
+    }
+
+    .careers-bannar img {
+        width: 100%;
+    }
+
+    .game-section {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        column-gap: 5px;
+        row-gap: 10px;
+        padding: 30px 0px;
+    }
+
+    .game-item {
+        font-size: 16px;
+
+    }
+
+   
+
+
+    .services {
+        grid-template-columns: repeat(4, 100px);
+        row-gap: 20px;
+    }
+
+    .social-icon {
+        display: grid;
+        grid-template-columns: repeat(4, 70px);
+        row-gap: 20px;
+    }
+
+ 
+
+}
